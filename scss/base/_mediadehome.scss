@@ -1,0 +1,12 @@
+@media screen and (min-width: 600px){
+    header{
+        background-color: tomato;
+        justify-content: space-between;
+    }
+}
+
+@media sreen and (max-width:1024px){
+    header{
+        background-color: tomato;
+    }
+}
