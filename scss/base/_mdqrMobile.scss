@@ -1,0 +1,80 @@
+@media screen and (min-width: 360px){
+        .presentacion{
+            display: grid;
+            grid-template-columns: auto ;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cajas{
+            margin: 15px;
+            text-align: center;
+            line-height: 150px;
+            background-color: rgb(255, 231, 11);
+            border: 2px solid red;
+        }
+        .cajas a img{
+            width: 75%;
+        }
+        .u{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+        }
+        .u, .direccion, .icono{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 10px;
+        }
+       .ubis{
+        background-color: #3586ff;
+        display: flex;
+        border: 2px solid red;
+        margin: 20px;
+        padding: 10px;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+       }
+    }
+    @media screen and (min-width: 850px){
+        .presentacion{
+            display: grid;
+            grid-template-columns: auto ;
+            width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .cajas{
+            margin: 15px;
+            text-align: center;
+            line-height: 150px;
+            background-color: rgb(255, 231, 11);
+            border: 2px solid red;
+        }
+        .cajas a img{
+            width: 75%;
+        }
+        .u{
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+        }
+        .u, .direccion, .icono{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 10px;
+        }
+       .ubis{
+        background-color: #3586ff;
+        display: flex;
+        border: 2px solid red;
+        margin: 20px;
+        padding: 10px;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+       }
+    }

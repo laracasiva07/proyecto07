@@ -1,0 +1,28 @@
+@media only screen and (min-width: 320px) and (max-width: 700px) {
+    footer{
+        background-color: black;
+        font-style: oblique;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        div ul{
+            display: flex;
+            list-style: none;
+            text-decoration: none;
+            gap: 50px;
+        }
+        div ul li a{
+            text-decoration: none;
+            color: rgba(4, 75, 1, 0.753);
+        }
+        footer div p{
+            background-color: rgb(16, 168, 41);
+        }
+        .letras{
+            font-size: 20px;
+        }
+    }
+}
+
+    

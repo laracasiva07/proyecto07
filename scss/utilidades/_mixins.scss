@@ -1,0 +1,19 @@
+//mixin flex
+
+@mixin flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin grid{
+    display: grid;
+  grid-auto-columns: auto;
+  width: 100%;
+  font-style: oblique;
+}
+
+@mixin width{
+    width: 100%;
+  height: 100%;
+}
