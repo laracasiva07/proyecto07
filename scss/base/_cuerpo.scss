@@ -21,8 +21,9 @@ main{
         @include fuenteSecundaria400;
     }
     .cajas{
-        color:$colorFuente;
         @include flex;
+        gap: 20px;
+        color:$colorFuente;
         padding: 10px;
         width: 90%;
         border-radius: 10px;

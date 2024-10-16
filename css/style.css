@@ -70,10 +70,11 @@ main .presentacion {
   font-variation-settings: "slnt" 0;
 }
 main .cajas {
-  color: #070000;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+  color: #070000;
   padding: 10px;
   width: 90%;
   border-radius: 10px;
