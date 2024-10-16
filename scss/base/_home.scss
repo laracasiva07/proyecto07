@@ -1,16 +1,20 @@
 @import "../utilidades/variables";
 @import "../utilidades/mixins";
 header{
-    background-image: $gradientHeader;
+    background-image: $gradientHeader;   
     .logo{
         @include flex;
     }
     .logo img{
+        background-color: whitesmoke;
         width: 25%;
+        border-radius: 10px;
+        border: 2px solid black;
+        box-shadow: 5px 0px rgba(7, 69, 185, 0.603);
     }
     .titulo{
+        @include fuentePrincipal;
         margin: 0px;
-        font-style: $fuente;
         color: $colorTitulo;
     }
     .colorMenu{
@@ -18,5 +22,5 @@ header{
     }
     .naranja:hover{
         background-color: $colorMenuProdc;
-      }
+    }
 }
